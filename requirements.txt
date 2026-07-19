@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+chainladder
+jupyter
+openpyxl
