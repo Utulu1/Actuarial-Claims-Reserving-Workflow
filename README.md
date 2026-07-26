@@ -188,6 +188,38 @@ The workflow developed in this project enables insurers to:
 
 Ultimately, this project demonstrates that actuarial analytics is not simply about estimating reserves—it is about enabling better financial decisions through robust analysis, transparency and informed professional judgement.
 
+## Key Visualisations
+
+The following visualisations summarise the main analytical outputs produced during the reserving workflow and illustrate how actuarial modelling supports reserve estimation and business decision-making.
+
+### 1. Latest Paid vs Ultimate Loss by Accident Year
+
+![Latest Paid vs Ultimate Loss](visualizations/LatesrPaid_vs_UltimateLoss_by_Accident_Year.png)
+
+**Insight**
+
+This comparison highlights the difference between observed cumulative paid claims and estimated ultimate losses for each accident year. The projected ultimate losses provide the basis for calculating outstanding claims reserves.
+
+---
+
+### 2. Outstanding Reserve by Accident Year
+
+![Outstanding Reserve](visualizations/Outstanding_Reserve_by_Year.png)
+
+**Insight**
+
+This visual identifies accident years requiring the largest outstanding reserve estimates, supporting actuarial judgement and reserve adequacy assessment.
+
+---
+
+### 3. Chain Ladder vs Mack Reserve Estimates
+
+![Chain Ladder vs Mack](visualizations/chainladder_vs_mack.png)
+
+**Insight**
+
+This comparison demonstrates how deterministic and stochastic reserving techniques can produce different reserve estimates. The Mack Chain Ladder method additionally quantifies reserve uncertainty, supporting more informed actuarial decision-making.
+
 ## Model Assumptions
 
 The Chain Ladder methodology relies on several important assumptions:
@@ -245,16 +277,22 @@ Potential extensions include:
 
 ## Conclusion
 
-This project demonstrates a complete actuarial claims reserving workflow implemented entirely in Python.
+This project demonstrates how actuarial analytics can transform historical insurance claims data into meaningful reserve estimates that support financial reporting, capital management and strategic decision-making.
 
-The analysis illustrates how deterministic and stochastic reserving methods can be combined to estimate outstanding claim liabilities while quantifying reserve uncertainty. The resulting workflow is transparent, reproducible, and closely reflects practical actuarial reserving processes performed within general insurance companies.
+By combining deterministic and stochastic reserving methodologies within a transparent Python workflow, the analysis reflects the technical rigour, analytical thinking and business communication expected of modern actuarial professionals.
+
+Beyond demonstrating the implementation of the Chain Ladder and Mack Chain Ladder methods, this project illustrates how actuarial science creates value by enabling organisations to make informed, evidence-based decisions under uncertainty.
 
 ## Author
 
-**Onyema Anthony Utulu**
+# Anthony Utulu
 
-*MSc. Actuarial Science | Aspiring Actuarial Analyst*
+**Actuarial & Business Analytics Professional**
 
-- **Email:** utulu.an@gmail.com
-- **GitHub:** https://github.com/Utulu1
-- **LinkedIn:** https://www.linkedin.com/in/utulu-an/
+*Transforming Data into Better Decisions*
+
+📧 **Email:** utulu.an@gmail.com
+
+💼 **LinkedIn:** https://www.linkedin.com/in/utulu-an
+
+🌐 **GitHub:** https://github.com/Utulu1
