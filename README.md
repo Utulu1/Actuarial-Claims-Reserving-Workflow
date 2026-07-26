@@ -46,8 +46,6 @@ This project aims to support actuarial reserving decisions by:
 
 ## Dataset
 
-## Dataset
-
 The analysis uses a historical general insurance claims development dataset representing multiple accident years and development periods.
 
 The dataset includes key actuarial variables required for constructing cumulative loss triangles and estimating outstanding claim liabilities, including:
