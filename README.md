@@ -32,20 +32,25 @@ This project addresses several key actuarial and business questions:
 - How does the Mack Chain Ladder method improve reserve assessment by quantifying uncertainty?
 - What insights can support actuarial judgement and reserving decisions?
 
-## Business Objective
+## Business Objectives
 
-The objective of this project is to estimate outstanding insurance claim liabilities by:
+This project aims to support actuarial reserving decisions by:
 
-- Assessing historical claims development.
+- Estimating outstanding insurance claim liabilities.
+- Assessing historical claims development patterns.
 - Constructing cumulative paid loss triangles.
 - Calculating development factors.
 - Estimating ultimate losses.
-- Quantifying outstanding reserves.
-- Measuring reserve uncertainty using the Mack Chain Ladder method.
+- Quantifying reserve uncertainty using the Mack Chain Ladder method.
+- Producing a transparent and reproducible actuarial reserving workflow.
 
 ## Dataset
 
-The project uses a historical insurance claims development dataset containing:
+## Dataset
+
+The analysis uses a historical general insurance claims development dataset representing multiple accident years and development periods.
+
+The dataset includes key actuarial variables required for constructing cumulative loss triangles and estimating outstanding claim liabilities, including:
 
 - Insurance Group Code
 - Insurance Group Name
@@ -58,25 +63,62 @@ The project uses a historical insurance claims development dataset containing:
 - Earned Premium
 - Posted Reserves
 
-For demonstration purposes, the analysis focuses on the **Allstate Insurance Group** portfolio.
+For this analysis, the workflow focuses on the **Allstate Insurance Group** portfolio to demonstrate practical actuarial reserving techniques within a realistic insurance setting.
 
-## Project Workflow
+## Analytical Methodology
 
-The reserving workflow follows a practical actuarial process:
+The project follows a structured actuarial reserving workflow that mirrors the analytical process commonly adopted within general insurance organisations.
 
-1. Data Audit
-2. Data Dictionary
-3. Portfolio Familiarisation
-4. Data Validation
-5. Construction of Cumulative Paid Loss Triangle
-6. Calculation of Age-to-Age Development Factors
-7. Selection of Development Factors
-8. Calculation of Cumulative Development Factors (CDFs)
-9. Ultimate Loss Estimation
-10. Outstanding Reserve Estimation
-11. Mack Chain Ladder Reserve Uncertainty Analysis
-12. Reserve Comparison
-13. Actuarial Interpretation and Reporting
+```text
+                 HISTORICAL CLAIMS DATA
+                          │
+                          ▼
+              Data Audit & Validation
+                          │
+                          ▼
+              Portfolio Familiarisation
+                          │
+                          ▼
+         Construction of Paid Loss Triangle
+                          │
+                          ▼
+         Age-to-Age Development Factors
+                          │
+                          ▼
+        Selection of Development Factors
+                          │
+                          ▼
+     Cumulative Development Factors (CDFs)
+                          │
+                          ▼
+          Ultimate Loss Estimation
+                          │
+                          ▼
+     Outstanding Reserve Estimation
+                          │
+                          ▼
+   Mack Chain Ladder Uncertainty Analysis
+                          │
+                          ▼
+      Reserve Comparison & Validation
+                          │
+                          ▼
+ Business Interpretation & Actuarial Report
+```
+
+### Workflow Stages
+
+| Stage | Purpose |
+|-------|---------|
+| **Data Audit & Validation** | Verify data quality, completeness and consistency before analysis. |
+| **Portfolio Familiarisation** | Understand the insurance portfolio and identify the subset for analysis. |
+| **Loss Triangle Construction** | Organise cumulative paid claims into a development triangle. |
+| **Development Factors** | Calculate age-to-age development factors to model claims progression. |
+| **CDF Calculation** | Estimate cumulative development factors used to project ultimate losses. |
+| **Ultimate Loss Estimation** | Estimate the total expected cost of claims for each accident year. |
+| **Reserve Estimation** | Calculate outstanding claims reserves by comparing ultimate losses with paid losses. |
+| **Mack Chain Ladder Analysis** | Quantify reserve uncertainty using stochastic reserving techniques. |
+| **Business Interpretation** | Translate analytical outputs into insights that support actuarial judgement and business decision-making. |
 
 ## Actuarial Methods
 
@@ -112,19 +154,41 @@ Actuarial-Claims-Reserving-Workflow/
 
 ## Key Results
 
-The project successfully produced:
+The analysis produced the following key actuarial outputs that support reserve estimation and evidence-based decision-making.
 
-- Cumulative Paid Loss Triangle
-- Age-to-Age Development Factors
-- Selected Development Factors
-- Cumulative Development Factors
-- Estimated Ultimate Losses
-- Outstanding Reserves by Accident Year
-- Mack Chain Ladder Reserve Estimates
-- Mack Standard Errors
-- Reserve Comparison between Chain Ladder and Mack Chain Ladder
+| Analytical Output | Business Purpose |
+|-------------------|------------------|
+| **Cumulative Paid Loss Triangle** | Forms the foundation for analysing historical claims development patterns. |
+| **Age-to-Age Development Factors** | Measure how claims mature over time and provide the basis for reserve projections. |
+| **Selected Development Factors** | Represent actuarial judgement in selecting appropriate development assumptions. |
+| **Cumulative Development Factors (CDFs)** | Project reported claims to their expected ultimate values. |
+| **Estimated Ultimate Losses** | Estimate the total expected cost of claims for each accident year. |
+| **Outstanding Claims Reserves** | Quantify future claim payment obligations and support financial reporting. |
+| **Mack Chain Ladder Reserve Estimates** | Produce stochastic reserve estimates while accounting for uncertainty. |
+| **Mack Standard Errors** | Measure the variability and reliability of reserve estimates. |
+| **Reserve Comparison** | Compare deterministic and stochastic approaches to strengthen actuarial judgement. |
 
-All generated figures are stored in the `visualizations/` directory.
+> **Note:** All analytical outputs and visualisations generated during the project are available in the `visualizations/` directory.
+
+## Business Impact
+
+Effective claims reserving is fundamental to the financial health and long-term sustainability of insurance companies. Accurate reserve estimates support regulatory compliance, strengthen financial reporting and enable insurers to make informed strategic decisions.
+
+This project demonstrates how actuarial analytics can transform historical claims data into practical business intelligence by combining traditional reserving methodologies with modern data analytics techniques.
+
+### Business Value Delivered
+
+The workflow developed in this project enables insurers to:
+
+- Improve the accuracy of outstanding claims reserve estimates.
+- Support financial reporting and regulatory compliance requirements.
+- Strengthen capital planning and solvency assessment.
+- Quantify reserve uncertainty to support actuarial judgement.
+- Increase transparency through a structured and reproducible reserving process.
+- Enhance risk management by identifying accident years with higher reserve uncertainty.
+- Provide evidence-based insights that support pricing, portfolio management and strategic planning.
+
+Ultimately, this project demonstrates that actuarial analytics is not simply about estimating reserves—it is about enabling better financial decisions through robust analysis, transparency and informed professional judgement.
 
 ## Model Assumptions
 
