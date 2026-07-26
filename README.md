@@ -1,6 +1,12 @@
 # Actuarial Claims Reserving Workflow Using Python
 
-An end-to-end actuarial claims reserving project demonstrating deterministic and stochastic loss reserving techniques using the **Chain Ladder** and **Mack Chain Ladder** methods implemented in Python.
+## Executive Summary
+
+This project presents an end-to-end actuarial claims reserving workflow developed in Python, demonstrating the practical application of both deterministic and stochastic reserving techniques.
+
+Using the **Chain Ladder** and **Mack Chain Ladder** methodologies, the analysis estimates outstanding insurance claim liabilities, evaluates reserve uncertainty and illustrates how actuarial analytics supports financial reporting, capital management and risk governance within general insurance.
+
+Designed to reflect a real-world actuarial engagement, the project combines data preparation, actuarial modelling, validation and business interpretation into a transparent and reproducible analytical workflow.
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
@@ -8,11 +14,23 @@ An end-to-end actuarial claims reserving project demonstrating deterministic and
 ![Mack Chain Ladder](https://img.shields.io/badge/Method-Mack%20Chain%20Ladder-success)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## Project Overview
+## Business Problem
 
-Insurance companies are required to estimate the value of claims that have already occurred but have not yet been fully settled. These estimates, known as **claims reserves**, play a critical role in financial reporting, solvency assessment, capital management, and regulatory compliance.
+Insurance companies must estimate the value of claims that have already occurred but have not yet been fully settled. These estimates, known as **claims reserves**, are essential for maintaining financial stability, meeting regulatory requirements and ensuring that policyholder obligations can be met.
 
-This project demonstrates a complete actuarial reserving workflow using historical insurance claims data. The analysis applies both deterministic and stochastic reserving techniques to estimate ultimate claim liabilities and outstanding reserves while showcasing how traditional actuarial methods can be implemented using modern Python tools.
+Underestimating reserves may expose an insurer to solvency risk, while overestimating reserves can reduce profitability and distort financial performance. Reliable reserving therefore plays a central role in actuarial practice, financial reporting and strategic decision-making.
+
+This project demonstrates how actuarial techniques can be applied using Python to estimate outstanding claim liabilities while providing transparent, evidence-based insights for business decision-makers.
+
+## Business Questions
+
+This project addresses several key actuarial and business questions:
+
+- What is the estimated value of outstanding insurance claim liabilities?
+- Which accident years contribute most significantly to reserve risk?
+- How reliable are the reserve estimates produced by deterministic methods?
+- How does the Mack Chain Ladder method improve reserve assessment by quantifying uncertainty?
+- What insights can support actuarial judgement and reserving decisions?
 
 ## Business Objective
 
