@@ -196,7 +196,7 @@ The following visualisations summarise the main analytical outputs produced duri
 
 ### 1. Latest Paid vs Ultimate Loss by Accident Year
 
-![Latest Paid vs Ultimate Loss](visualizations/LatestPaid_vs_UltimateLoss_by_Accident_Year.png)
+![Latest Paid vs Ultimate Loss](visualizations/latest_paid_vs_ultimate_loss.png)
 
 **Insight**
 
