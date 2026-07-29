@@ -1,4 +1,12 @@
+![Repository Banner](visualizations/repository_banner.png)
+
 # Actuarial Claims Reserving Workflow Using Python
+
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![Chain Ladder](https://img.shields.io/badge/Method-Chain%20Ladder-success)
+![Mack Chain Ladder](https://img.shields.io/badge/Method-Mack%20Chain%20Ladder-success)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Executive Summary
 
@@ -7,12 +15,6 @@ This project presents an end-to-end actuarial claims reserving workflow develope
 Using the **Chain Ladder** and **Mack Chain Ladder** methodologies, the analysis estimates outstanding insurance claim liabilities, evaluates reserve uncertainty and illustrates how actuarial analytics supports financial reporting, capital management and risk governance within general insurance.
 
 Designed to reflect a real-world actuarial engagement, the project combines data preparation, actuarial modelling, validation and business interpretation into a transparent and reproducible analytical workflow.
-
-![Python](https://img.shields.io/badge/Python-3.13-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
-![Chain Ladder](https://img.shields.io/badge/Method-Chain%20Ladder-success)
-![Mack Chain Ladder](https://img.shields.io/badge/Method-Mack%20Chain%20Ladder-success)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Business Problem
 
@@ -150,7 +152,7 @@ Actuarial-Claims-Reserving-Workflow/
 └── requirements.txt
 ```
 
-## Key Results
+## Key Analytical Outputs
 
 The analysis produced the following key actuarial outputs that support reserve estimation and evidence-based decision-making.
 
@@ -194,7 +196,7 @@ The following visualisations summarise the main analytical outputs produced duri
 
 ### 1. Latest Paid vs Ultimate Loss by Accident Year
 
-![Latest Paid vs Ultimate Loss](visualizations/LatesrPaid_vs_UltimateLoss_by_Accident_Year.png)
+![Latest Paid vs Ultimate Loss](visualizations/LatestPaid_vs_UltimateLoss_by_Accident_Year.png)
 
 **Insight**
 
